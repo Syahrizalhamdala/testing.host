@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head"> aril.</h1>
+        <ul>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="about">About</a></li>
+            <li> <a href="Services">Services</a></li>
+            <li> <a href="portofolio">Portofolio</a></li>
+            <li> <a href="contact">Contact</a></li>
+
+            <a href="contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <section  id="home" class="home">
+        <img src="aril.jpeg" alt="" width="450px" height="400px">
+        <div class="description">
+            <h1>Hello I'm <br><span>Aril</span></h1>
+            <h2>I'm a <span>Frontend Developer...</span></h2>
+            <p>Hi, I'm Aril, a Frontend Developer who is passionate about building engaging and responsive user experiences. With expertise in HTML, CSS, JavaScript, and various modern frameworks such as React or Vue.js, I focus on creating functional yet aesthetic interfaces.
+
+                I believe that good design is not just about looks, but also about experience. Therefore, I always try to understand user needs and ensure that every project I work on provides the best solution.</p>
+                <div class="font">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fas fa-phone"></i>
+                </div>
+                <button>Download CV</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Frontend<span> Developer</span></h2>
+            <p>Hi, I'm Aril, a passionate Frontend Developer with a keen eye for detail and a love for creating visually appealing, user-friendly web applications. With a solid foundation in HTML, CSS, and JavaScript, I specialize in transforming ideas into interactive and responsive designs that deliver exceptional user experiences.
+
+                I thrive in solving challenges, learning new technologies, and staying updated with the latest trends in web development. Whether it's building a sleek landing page, a dynamic web application, or optimizing performance, I always aim for excellence in every project I undertake.
+                
+                </p>
+            <button class="about_btn"> Read More...</button>
+        </div>
+        <div class="about_photo">
+            <img src="aril.jpeg" alt="" width="420px" height="360px">
+        </div>
+    </section>
+
+    </section>
+    <section id="Services" class="services">
+        <h1 class="services_section">My <span>Services</span></h1>
+        <div class="card">
+            <div class="services_card">
+                <i class="fas fa-computer"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fuga dolorum, quibusdam mollitia, ea explicabo dignissimos cum at libero eos corrupti porro omnis illo unde sunt? Debitis ad ab molestias?</p>
+                <a href="#">Read More...</a>
+              
+            </div>
+            <div class="services_card">
+                <i class="fas fa-computer"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fuga dolorum, quibusdam mollitia, ea explicabo dignissimos cum at libero eos corrupti porro omnis illo unde sunt? Debitis ad ab molestias?</p>
+                <a href="#">Read More...</a>
+            </div>
+            <div class="services_card">
+                <i class="fas fa-computer"></i>
+                <h2>Frontend Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fuga dolorum, quibusdam mollitia, ea explicabo dignissimos cum at libero eos corrupti porro omnis illo unde sunt? Debitis ad ab molestias?</p>
+                <a href="#">Read More...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portofolio">
+        <h1 class="port_section">My <span>Work</span></h1>
+        <div class="project">
+            <div class="port_card">
+                <img src="kripto.jpg" alt="" width="450px" height="450px">
+                <div class="content">
+                    <h1>Criptocurency</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias expedita unde qui vitae, harum quo illo sunt libero in ipsa quisquam velit autem blanditiis nihil porro dignissimos dolorem atque officia?</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="gambarkom.jpg" alt="" width="450px" height="450px">
+                <div class="content">
+                    <h1>Frontend Developer</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias expedita unde qui vitae, harum quo illo sunt libero in ipsa quisquam velit autem blanditiis nihil porro dignissimos dolorem atque officia?</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="phone.jpg" alt="" width="450px" height="450px">
+                <div class="content">
+                    <h1>Ios Design</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias expedita unde qui vitae, harum quo illo sunt libero in ipsa quisquam velit autem blanditiis nihil porro dignissimos dolorem atque officia?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="form">
+            <h1>Contact <span>Me</span></h1>
+            <form action="#Home">
+                <input type="text" name="name" placeholder="Enter Your Name" required><br>
+                <input type="email" name="email" placeholder="Enter Your email" required><br>
+                <input type="number" name="no" placeholder="Enter Your Number" required><br>
+                <textarea name="msg" id="msg" rows="6" cols="20" placeholder="Enter Your message"></textarea><br>
+                <button class="from_btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p><i class="fa-solid-fa-copyright"></i> Aril || All Right Reserved...</p>
+    </div>
+</body>
+</html>
